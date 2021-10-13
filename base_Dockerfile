@@ -8,5 +8,5 @@ VOLUME /mnt/gen_bioinfassets
 VOLUME  /mnt/gen_bioinfdata
 VOLUME  /mnt/gen_bioinfinternal
 COPY .  /home/velona/
-RUN pip install -r requirements.txt
+#RUN pip install -r requirements.txt
 CMD ["bash"] 
